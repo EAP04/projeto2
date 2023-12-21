@@ -1,0 +1,54 @@
+{
+  "campos": [
+    {
+      "codigoDoEstudate": "Codigo do Estudante",
+      "descricao": "Identificação única do estudante.",
+      "id": 1,
+      "valoresPossiveis": "Texto alfanumérico"
+    },
+    {
+      "descricao": "Instituição de ensino superior em que o estudante está matriculado.",
+      "id": 2,
+      "nome": "Universidade",
+      "valoresPossiveis": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      }
+    },
+    {
+      "descricao": "Programa de estudos em que o estudante está inscrito.",
+      "id": 3,
+      "nome": "Curso/Programa",
+      "valoresPossiveis": "Texto alfanumérico"
+    },
+    {
+      "descricao": "Indica se o estudante participa de atividades de aprendizado imersivo.",
+      "id": 4,
+      "metricas": {
+        "qualitativa": "Análise de feedback de participantes e não participantes",
+        "quantitativa": "Taxa de participação global"
+      },
+      "nome": "Participação em Atividades Imersivas",
+      "valoresPossiveis": "Seleção binária"
+    },
+    {
+      "descricao": "Lista de ferramentas tecnológicas usadas para aprendizado imersivo.",
+      "id": 5,
+      "nome": "Ferramentas Tecnológicas Utilizadas",
+      "valoresPossiveis": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      }
+    },
+    {
+      "descricao": "Avaliação do estudante sobre sua satisfação com as atividades imersivas.",
+      "id": 6,
+      "nome": "Nível de Satisfação com a Experiência Imersiva",
+      "valoresPossiveis": ["1 (Ruim)", "2", "3", "4", "5 (Excelente)"]
+    }
+  ]
+}

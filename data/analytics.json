@@ -1,0 +1,91 @@
+{
+  "qualitativas": [
+    {
+      "data": "array",
+      "id": 8,
+      "nome": "Classificação da satisfação média dos estudantes por Universidade"
+    },
+    {
+      "data": "array",
+      "id": 9,
+      "nome": "Análise da correlação entre programas e satisfação"
+    },
+    {
+      "data": "array",
+      "id": 10,
+      "nome": "Análise de feedback de participantes e não participantes"
+    },
+    {
+      "data": "array",
+      "id": 11,
+      "nome": "Feedback detalhado sobre a experiência com cada ferramenta"
+    },
+    {
+      "data": "array",
+      "id": 12,
+      "nome": "Análise de comentários abertos para insights específicos"
+    }
+  ],
+  "quantitativas": [
+    {
+      "data": "double",
+      "id": 1,
+      "nome": "Número total de estudantes"
+    },
+    {
+      "data": [
+        {
+          "numeroEstudantes": "Inteiro",
+          "universidade": "String"
+        }
+      ],
+      "id": 2,
+      "nome": "Número de estudantes por universidade"
+    },
+    {
+      "data": [
+        {
+          "numeroEstudantes": "Inteiro",
+          "programa": "String"
+        }
+      ],
+      "id": 3,
+      "nome": "Percentagem de estudantes em cada programa"
+    },
+    {
+      "data": [
+        {
+          "numeroEstudantes": "Inteiro",
+          "universidade": "String"
+        }
+      ],
+      "id": 4,
+      "nome": "Taxa de participação em actividades imersivas por universidade"
+    },
+    {
+      "data": [
+        {
+          "ferramenta": "String",
+          "popularidade": "Inteiro"
+        }
+      ],
+      "id": 5,
+      "nome": "Popularidade de cada ferramenta"
+    },
+    {
+      "data": "double",
+      "id": 6,
+      "nome": "Média global de satisfação"
+    },
+    {
+      "data": [
+        {
+          "numeroEstudantes": "Inteiro",
+          "universidade": "String"
+        }
+      ],
+      "id": 7,
+      "nome": "Média global de satisfação por universidade"
+    }
+  ]
+}
